@@ -1,0 +1,18 @@
+LOGIC:
+1. I have made three classes- items,fruits and vegetables.
+2. items class is inherited by fruits class and vegetables class publically.
+3. i have given "protected" access to the variables of items class so that they can be inherited.
+4. common variables of fruits and vegetables class are the variables of items class.
+5. main grocery store class is linked_list class and the "store" object is our grocery store.
+6. All the functionalities are the public functions of linked_list class.
+7. "node" class is defined as the nodes for the linked_list.
+8. node holds a pointer to the next node and a pointer to the item.
+9. linked_list and node class are the friend classes of items,fruits and vegetables classes.
+10. main function reads the data from the text files and store it in the linkedlist .
+11. main function provides the user interface for the store. 
+
+ASSUMPTIONS:
+1. I have taken the search area to be rectangular.
+
+HOW TO RUN:
+"make" command and then ./sample o terminal after going in folder directory.
